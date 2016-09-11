@@ -4,6 +4,9 @@ This is the unofficial Ruby OmniAuth strategy for authenticating to [Smooch](htt
 
 Before you can start developing an integration with Smooch, you need to create an application on your account and ask for a client id and secret.
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/phildionne/omniauth-smooch.svg)](https://gemnasium.com/github.com/phildionne/omniauth-smooch)
+[![Code Climate](https://codeclimate.com/github/phildionne/omniauth-smooch/badges/gpa.svg)](https://codeclimate.com/github/phildionne/omniauth-smooch)
+
 ## Installation
 
 Add the strategy to your `Gemfile`:
