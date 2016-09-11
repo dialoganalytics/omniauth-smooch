@@ -1,8 +1,8 @@
 # Smooch's Omniauth strategy
 
-This is the official Ruby OmniAuth strategy for authenticating to [Smooch](https://smooch.io).
+This is the unofficial Ruby OmniAuth strategy for authenticating to [Smooch](https://smooch.io).
 
-Before you can start developing your API client for Smooch, you need to create an application on your account and copy the application id and secret.
+Before you can start developing an integration with Smooch, you need to create an application on your account and ask for a client id and secret.
 
 ## Installation
 
