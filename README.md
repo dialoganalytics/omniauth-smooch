@@ -20,7 +20,7 @@ You can integrate the strategy into your middleware in a `config.ru`:
 
 ```ruby
 use OmniAuth::Builder do
-  provider :smooch, SETTINGS['CLIENT_ID'], SETTINGS['CLIENT_SECRET'], scope: "read write"
+  provider :smooch, ENV['SMOOCH_CLIENT_ID'], ENV['SMOOCH_CLIENT_SECRET'], scope: "integration"
 end
 ```
 
@@ -28,7 +28,7 @@ If you're using Rails, you'll want to add to the middleware stack:
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :smooch, SETTINGS['CLIENT_ID'], SETTINGS['CLIENT_SECRET'], scope: "read write"
+  provider :smooch, ENV['SMOOCH_CLIENT_ID'], ENV['SMOOCH_CLIENT_SECRET'], scope: "integration"
 end
 ```
 
